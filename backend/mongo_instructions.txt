@@ -1,0 +1,15 @@
+sudo mongo
+MongoDB shell version v3.6.3
+connecting to: mongodb://127.0.0.1:30000
+MongoDB server version: 3.6.3
+> use db_proiect
+switched to db db_proiect
+> db.db_proiect.find()
+Error: error: {
+	"ok" : 0,
+	"errmsg" : "not authorized on db_proiect to execute command { find: \"db_proiect\", filter: {}, $db: \"db_proiect\" }",
+	"code" : 13,
+	"codeName" : "Unauthorized"
+}
+> db.auth("user","user");
+1

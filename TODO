@@ -1,0 +1,14 @@
+Aditional problems:
+Cookies/sessions storage
+Student while solving test: did not submit and curr_time > end_time of test
+teacher can view a student's test: chosen answers in case of contestation
+security problems: students should in theory only run select statemets, but are allowed to run any query
+
+
+
+Release 1.0
+[opt] download scores as csv/excel
+
+
+Release 1.1
+File Hosting?
